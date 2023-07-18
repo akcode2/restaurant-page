@@ -1,0 +1,138 @@
+
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    height: 20vh;
+    color: white;
+}
+
+.menu {
+    align-self: end;
+    margin: -60px auto;
+    padding-right: 180px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+li {
+    font-size: 35px;
+    font-family: 'Playfair Display';
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.name {
+    font-family: 'Rock Salt';
+    font-size: 64px;
+}
+
+.sub-name {
+    font-family: 'Cinzel Decorative';
+    font-size: 24px;
+    margin-top: -28px;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0)
+    ),
+    url("images/jakub-kapusnak-tEVisOXz26Y-unsplash.jpg");
+    background-size: cover;
+    height: 120vh;
+    margin-top: -20vh;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 15vh 50vh 40vh;
+}
+
+.pitch-header {
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    color: white;
+    background-color: #C19230;
+    padding-left: 3rem;
+    padding-top: 10px;
+}
+
+.pitch-body {
+    display: flex;
+    background: repeating-radial-gradient(circle, transparent, transparent 12.3px, #313131 12.3px, #313131 15.8px), repeating-radial-gradient(circle, transparent, transparent 12.3px, #383737 12.3px, #383737 15.8px), #2b2b2b;
+    background-size: 70px 70px;
+    background-position: 0 0, 35px 35px, 70px 35px;
+    background-color: #2b2b2b;
+    color: white;
+    font-family: 'Cormorant';
+    font-size: 24px;
+}
+
+.pitch {
+    padding: 10px 3rem;
+    width: 65ch;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.buttons > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    height: 2rem;
+}
+
+
+.menu-btn {
+    background-color: #C19230;
+    color: black;
+}
+
+.res-btn {
+    color: #959595;
+    border: 3px solid #959595;
+}
+
+.contact-hours {
+    display: flex;
+    background-color: #C19230;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-size: 1.65rem;
+}
+
+.contact > p, .hours > p {
+    font-family: 'Cormorant';
+}
