@@ -1,0 +1,44 @@
+// In index.js 
+// Create header
+// Create footer 
+// Import content
+// Create a function to set the active menu tab
+// 
+// In home.js
+// 
+// Create main content and export it
+//
+// In menu.js create main content and export it
+
+// import loadHome from "./home";
+// import loadMenu from "./menu";
+// import loadReservations from "./reservations";
+
+<div class="pitch-header">
+Passion and creativity intertwine
+</div>
+<div class="pitch-body">
+<div class="pitch">
+    <p>At Fratelli's, we honor the traditions that have made Italian cuisine legendary, while embracing innovation and modern techniques.</p> <br />
+    <p>Indulge your senses as our talented chefs craft extraordinary culinary masterpieces that will transport you to the heart of Italy.</p> <br />
+    <p>With meticulous attention to detail and a commitment to sourcing the finest ingredients, every dish that leaves our kitchen is a symphony of flavors, textures, and aromas.</p>
+</div>
+<div class="buttons">
+    <div class="menu-btn">Menu</div>
+    <div class="res-btn">Reservations</div>
+</div>
+</div>
+<div class="contact-hours">
+<div class="contact">
+    <h3>Contact</h3> <br />
+    <p>Located in the historic Bella Vista neighborhood:</p>
+    <p>2323 Connecticut Ave,</p>
+    <p>Philadelphia, PA 19148</p> <br />
+    <p>P. 215-555-3838 | E. info@fratelliscucina.com</p>
+</div>
+<div class="hours">
+    <h3>Hours</h3> <br />
+    <p>Tuesday - Sunday</p>
+    <p>4pm - 11pm</p>
+</div>
+</div>
